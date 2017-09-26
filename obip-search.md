@@ -167,7 +167,6 @@ The entry point response from `curl example.com`:
 - `name` is the displayed name of the Service
 
 - `logo` is the displayed image next to the name for branding
-  - TODO: Provide an image size
 
 - `links` is an object providing the URI of important endpoints
   - `self` is the canonical URI for the endpoint of the Service
@@ -184,7 +183,6 @@ any way.
 
   - The key of an `options` object is the "name" of the object. It is what is sent in the URL of a search as the key in the query params.
   - The `type` property of the object specifies the type of filter that option is. The currently supported option types are: radio, checkbox, and dropdown
-    - TODO: (verify support types with client team)
   - The `label` property is the value displayed in the application
   - The `options` property is a list of options for the filter.
   - Its `value` and `label` properties work the same as the root-level `options` key and `label` values respectively.
@@ -197,8 +195,6 @@ any way.
   - The `label` property is the displayed value
   - The `selected` property denotes the selected search value
   - The `default` property denotes the value is the default value
-
-    - TODO: Should `selected` and `default` be moved one level up since only one may be selected for each?
 
 # Listing Search Response Example
 
