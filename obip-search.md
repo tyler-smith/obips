@@ -441,3 +441,13 @@ any way.
     - The `data` object represents the listing data itself
       - `hash`, `slug`, `title`, `tags`, `contractType`, `description`, `thumbnail`, `language`, `price`, and `nsfw` should be the same as provided by the listing
       - `categories` is an array of categories as determined by the Service provider. It may use categories given by the vendor or using a custom algorithm
+
+# Reccomended Search Endpoint Flags
+
+The reference client shall send the follow parameters to search providers on all search requests, and search providers should respond accordingly.
+
+Flag | Type | Description
+--- | --- | ---
+`p` | Integer | Page; controls which pages of results should be sent
+`ps` | Integer |Page Size; controls how many results should be sent per page
+`nsfw` | Boolean | Controls whether or not to return adult listings
