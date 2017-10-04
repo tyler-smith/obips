@@ -15,3 +15,10 @@ Having an OBIP here does not make it a formally accepted standard until its stat
 | Process
 | Accepted
 |}
+|- style="background-color: #cfffcf"
+| [[obip-0002.md|2]]
+| 3rd Party Search
+| Tyler Smith
+| Standards
+| Draft
+|}
